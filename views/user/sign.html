@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no,address=no">
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/base.css"/>
+<script src="../../static/js/common/root-font-size.js"></script>
+</head>
+<body>
+	<section class="header">
+		<a href="javascript:;" class="prev"></a>
+		<h2 class="title">登录</h2>
+	</section>
+	<section class="sign">
+		<form action="#">
+			<section class="group">
+				<label class="label" for="tel">手机号码</label>
+				<input type="text" id="tel" placeholder="请输入手机号码" input-num/>
+				<i class="delete"></i>
+			</section>
+			<section class="group">
+				<label class="label" for="password">服务密码</label>
+				<input type="password" id="password" placeholder="请输入服务密码" input-password/>
+				<i class="no-eye" eye></i>
+			</section>
+		</form>
+		<p class="sign-btn">
+			<a href="javascript:;" btn-sign>登录</a>
+		</p>
+	</section>
+</body>
+</html>
+<script type="text/javascript" src="../../static/js/module/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+	/*删除手机号码效果*/
+	$(document).on('keyup','[input-num]',function(){
+		var txt = $(this).val();
+		if(txt != ''){
+			$(this).siblings('.delete').css('display','block');
+		}else{
+			$(this).siblings('.delete').css('display','none');
+		}
+	});
+
+	$(document).on('tap','.delete',function(){
+		$(this).siblings('input').val('');
+		$(this).css('display','none');
+	});
+
+	/*眼睛效果*/
+	$(document).on('tap','[eye]',function(){
+		if(!$(this).hasClass('eye')){
+			$(this).addClass('eye');
+			$(this).siblings('input').attr('type','text');
+		}else{
+			$(this).removeClass('eye');
+			$(this).siblings('input').attr('type','password');
+		}
+	});
+
+	/*登录效果*/
+	var timer = '';
+	$(document).on('tap','[btn-sign]',function(){
+		$('.notice-txt').remove();
+		clearTimeout(timer);
+		var txt = $('[input-num]').val(),
+			txt1 = $('[input-password]').val();
+		if(txt == '' || txt1 == ''){
+			$('body').append('<p class="notice-txt">请输入正确的手机号码或服务密码</p>');
+			timer = setTimeout(function(){
+
+				$('.notice-txt').fadeOut(600,function(){
+					$('.notice-txt').remove();
+					clearTimeout(timer);
+				});
+			},1000);
+		}else{
+			window.location.href="../guide.html";
+		}	
+	});
+});
+</script>

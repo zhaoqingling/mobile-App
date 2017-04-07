@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no,address=no" />  
+<title>拼图游戏</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/base.css" />
+<script src="../../static/js/common/root-font-size.js"></script>
+</head>
+<body>
+	<section class="header">
+		<a href="../index.html" class="prev"></a>
+		<h2 class="title">拼图游戏</h2>
+	</section>
+	<section class="puzzle-wrap">
+		<p class="notice">会员完成拼图就有机会得米粒</p>
+		<section class="puzzle-page" id="guide-page">
+			<div class="puzzle-box">
+				<img src="../../static/img/puzzle-home.jpg" />
+			</div>
+			<button class="btn-ready" name="btn-ready">拼图得米粒</button>
+		</section>
+		<section class="puzzle-page undis" id="game-page">
+			<div class="puzzle-box">
+				<div class="puzzle-game" id="imgArea">
+					<div class="imgArea"></div>
+				</div>
+			</div>
+			<div class="time-box" name="time-box">
+				<div class="time-txt">
+					<i></i>
+					<strong>00：30</strong>
+				</div>
+				<div class="time-progress" name="time-progress">
+					<div class="time-bar"></div>
+				</div>
+			</div>
+			<button class="btn-start" name="btn-start">开始</button>
+		</section>
+		<section class="puzzle-rule">
+			<h3 class="tit">游戏规则</h3>
+			<ol>
+				<li>1、活动面向所有注册用户，每位会员都有一定概率等到米粒。</li>
+				<li>2、会员等级越高，获得米粒的概率越高，每次最多获得50米粒。</li>
+				<li>3、会员等级越高，获得米粒的概率越高，每次最多获得50米粒。</li>
+			</ol>
+		</section>
+	</section>
+</body>
+</html>
+<script src="../../static/js/module/jquery-2.1.4.min.js"></script>
+<script src="../../static/js/libs/jquery.puzzle.js"></script>
+<script>
+$(function(){
+	/* 加入图片，运行代码 */	
+	$('#imgArea').puzzle({
+		readyPage:'#guide-page',  //进入游戏页面
+		gamePage:'#game-page',  //开始游戏页面
+		btnReady:'[name="btn-ready"]',  //进入游戏按钮
+		btnStart:'[name="btn-start"]',  //开始游戏按钮
+		time:'[name="time-box"] strong', //存储时间
+		timeBar:'[name="time-progress"] .time-bar',  //存储时间
+		startFn:function(callback){
+			var status = {
+					imgSrc:'../../static/img/puzzle.jpg',
+					success:true
+				};
+			callback(status);
+		},
+		endFn:function(opt){
+			var bln = opt.bln;
+			
+			var status = { // ajax返回值
+					success:true
+				};
+
+			opt.callback(status);
+		}
+	});
+});
+</script>
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no,address=no" />  
+<title>看你有多色</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/base.css" />
+<script src="../../static/js/common/root-font-size.js"></script>
+</head>
+<body class="color-wrap">
+	<section class="header">
+		<a href="../index.html" class="prev"></a>
+		<h2 class="title">看你有多色</h2>
+	</section>
+	<section class="color-start" name="color-start">
+		<p class="title">测测你的视力有多强</p>
+		<p class="title">The Color!</p>
+		<p class="txt">找出所有色块里颜色不同的一个</p>
+		<p class="english">Click on the tile that has a different color</p>
+		<p class="foot-opear"><button class="btn-start">开始测试</button></p>
+	</section>	
+	<section class="color-game undis" id="room">
+		<section class="hd">
+			<span class="lv">得分：<em>0</em></span>
+			<span class="time">60<em>s</em></span>
+			<span class="btn btn-pause">暂停</span>
+		</section>
+		<section class="game-box"></section>
+	</section>
+	<section class="color-dialog undis">
+		<section class="gameover" style="display:none">
+			<h3></h3>
+			<section class="btn-group">
+				<button class="btn btn-share">分享</button> 
+				<button class="btn btn-again">再玩一次</button> 
+			</section>
+		</section>
+		<section class="pause" style="display:none">
+			<h3>游戏暂停</h3>
+			<section class="btn-group">
+				<button class="btn btn-resume">继续游戏</button> 
+			</section>
+		</section>
+	</section>
+</body>
+</html>
+<script src="../../static/js/module/jquery-2.1.4.min.js"></script>
+<script src="../../static/js/libs/jquery.color.js"></script>
+<script>
+$(function(){
+	/*
+	 * 游戏
+	 * Author:jiaqian
+	 * Data:2016/1/12
+	 */
+	$('[name="color-start"] .btn-start').Color({
+		longtime:60,//s秒
+		isBegin:function(resultFn){
+			// ajax返回的状态
+			var status = {
+					success:true
+				};
+			resultFn(status);
+		},
+		endFn:function(num){// 游戏结束时返回得分
+			console.log(num);
+		}
+	});
+});
+</script>
+
+
+
+

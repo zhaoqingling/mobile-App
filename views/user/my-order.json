@@ -1,0 +1,37 @@
+{
+	"code":"001",
+	"orderList":[
+		{
+			"companyName":"运营商",
+			"orderState":"已收货",
+			"state":"1",
+			"route":"../../static/img/pic/order-pic1-160.png",
+			"info":"aniel Wellington 丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
+			"realMoney":"160"
+		},
+		{
+			"companyName":"专卖店",
+			"orderState":"待收货",
+			"state":"0",
+			"route":"../../static/img/pic/order-pic2-160.png",
+			"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
+			"realMoney":"60"
+		},
+		{
+			"companyName":"商城",
+			"orderState":"已收货",
+			"state":"1",
+			"route":"../../static/img/pic/order-pic1-160.png",
+			"info":"aniel Wellington 丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
+			"realMoney":"160"
+		},
+		{
+			"companyName":"专卖店",
+			"orderState":"已收货",
+			"state":"1",
+			"route":"../../static/img/pic/order-pic2-160.png",
+			"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
+			"realMoney":"60"
+		}
+	]
+}

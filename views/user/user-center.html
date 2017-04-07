@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="format-detection" content="telephone=no,address=no">
+<title>个人中心</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/base.css"/>
+<script src="../../static/js/common/root-font-size.js"></script>
+</head>
+<body>
+	<section class="header">
+		<a href="../index.html" class="prev"></a>
+		<h2 class="title">个人中心</h2>
+	</section>
+	<section class="user-center">
+		<ul>
+			<li class="credits"><a href="./my-credits.html">我的积分<i></i></a></li>
+			<li class="order"><a href="./my-order.html">我的订单<i></i></a></li>
+			<li class="address"><a href="../address/my-address.html">我的收货地址<i></i></a></li>
+		</ul>
+		<p class="exit"><a href="javascript:;" exit>退出登录</a></p>
+	</section>
+	<!-- dialog beginning -->
+	<section class="mask undis" mask></section>
+	<section class="dialog delete-dialog undis" exit-dialog>
+		<section class="dialog-con">
+			<p class="txt">确定要退出此账号吗？</p>
+			<section class="btn-group">
+				<a href="javscript:;" cancel-btn>取消</a>
+				<a href="./sign.html" class="confirm-btn" confirm-btn>确定退出</a>
+			</section>
+		</section>
+	</section>
+	<!-- dialog endding -->
+</body>
+</html>
+<script type="text/javascript" src="../../static/js/module/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	
+	/*退出登录弹窗*/
+	$(document).on('tap','[exit]',function(){
+		$('[mask]').removeClass('undis');
+		$('[exit-dialog]').removeClass('undis');
+		return false;
+	});
+
+	$(document).on('tap','[cancel-btn]',function(){
+		$('[mask]').addClass('undis');
+		$('[exit-dialog]').addClass('undis');
+		return false;
+	});
+	
+});
+</script>
