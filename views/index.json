@@ -2,57 +2,57 @@
 	"code":"001",
 	"ProductList1":[
 		{
-			"route":"../static/img/pic/icon-time2-265.png",
+			"route":"../static/img/pic/bottle-xs.png",
 			"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 			"money":"120"
 		},{
-			"route":"../static/img/pic/icon-time3-265.png",
+			"route":"../static/img/pic/cooker-xs.png",
 			"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 			"money":"80"
 		},{
-			"route":"../static/img/pic/icon-time2-265.png",
+			"route":"../static/img/pic/bottle-xs.png",
 			"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 			"money":"120"
 		},{
-			"route":"../static/img/pic/icon-time3-265.png",
+			"route":"../static/img/pic/cooker-xs.png",
 			"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 			"money":"80"
 		}
 	],
 	"ProductList2":[
 		{
-			"route":"../static/img/pic/icon-time4-265.png",
+			"route":"../static/img/pic/watch-xs.png",
 			"info":"丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
 			"money":"110"
 		},{
-			"route":"../static/img/pic/icon-time5-265.png",
+			"route":"../static/img/pic/duorou-xs.png",
 			"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 			"money":"50"
 		},{
-			"route":"../static/img/pic/icon-time4-265.png",
+			"route":"../static/img/pic/watch-xs.png",
 			"info":"丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
 			"money":"110"
 		},{
-			"route":"../static/img/pic/icon-time5-265.png",
+			"route":"../static/img/pic/duorou-xs.png",
 			"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 			"money":"50"
 		}
 	],
 	"ProductList3":[
 		{
-			"route":"../static/img/pic/icon-time6-265.png",
+			"route":"../static/img/pic/daoone-xs.png",
 			"info":"飞科全自动剃须刀，舒服流畅，省电省力，舒适好用。",
 			"money":"105"
 		},{
-			"route":"../static/img/pic/icon-time7-265.png",
+			"route":"../static/img/pic/daotwo-xs.png",
 			"info":"飞科全自动剃须刀，舒服流畅，省电省力，舒适好用。",
 			"money":"100"
 		},{
-			"route":"../static/img/pic/icon-time8-265.png",
+			"route":"../static/img/pic/daothree-xs.png",
 			"info":"飞科全自动剃须刀，舒服流畅，省电省力，舒适好用。",
 			"money":"105"
 		},{
-			"route":"../static/img/pic/icon-time7-265.png",
+			"route":"../static/img/pic/daoone-xs.png",
 			"info":"飞科全自动剃须刀，舒服流畅，省电省力，舒适好用。",
 			"money":"100"
 		}

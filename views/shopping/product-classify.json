@@ -25,32 +25,32 @@
 			"tit":"百货",
 			"list":[
 				{
-					"route":"../../static/img/pic/tixudao1-116.png",
+					"route":"../../static/img/pic/daoone-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},
 				{
-					"route":"../../static/img/pic/tixudao1-116.png",
+					"route":"../../static/img/pic/daoone-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},
 				{
-					"route":"../../static/img/pic/tixudao2-116.png",
+					"route":"../../static/img/pic/daotwo-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"105"
 				},
 				{
-					"route":"../../static/img/pic/tixudao2-116.png",
+					"route":"../../static/img/pic/daotwo-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"105"
 				},
 				{
-					"route":"../../static/img/pic/tixudao3-116.png",
+					"route":"../../static/img/pic/daothree-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},
 				{
-					"route":"../../static/img/pic/tixudao3-116.png",
+					"route":"../../static/img/pic/daothree-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				}
@@ -60,28 +60,28 @@
 			"tit":"家用",
 			"list":[
 				{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"
 				},
 				{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"80"
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"80"
 				},{
-					"route":"../../static/img/pic/tixudao3-116.png",
+					"route":"../../static/img/pic/daothree-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},{
-					"route":"../../static/img/pic/tixudao3-116.png",
+					"route":"../../static/img/pic/daothree-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				}
@@ -91,19 +91,19 @@
 			"tit":"精品",
 			"list":[
 				{
-					"route":"../../static/img/pic/order1-116.png",
+					"route":"../../static/img/pic/watch-ss.png",
 					"info":"Daniel Wellington 丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
 					"money":"110"
 				},{
-					"route":"../../static/img/pic/order1-116.png",
+					"route":"../../static/img/pic/watch-ss.png",
 					"info":"Daniel Wellington 丹尼尔惠灵顿女表，温婉大气上档次，适合你的顶级高配,让生活变得无所不能。",
 					"money":"110"
 				},{
-					"route":"../../static/img/pic/tixudao2-116.png",
+					"route":"../../static/img/pic/daotwo-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"105"
 				},{
-					"route":"../../static/img/pic/tixudao2-116.png",
+					"route":"../../static/img/pic/daotwo-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"105"
 				}
@@ -113,19 +113,19 @@
 			"tit":"植物",
 			"list":[
 				{
-					"route":"../../static/img/pic/order2-116.png",
+					"route":"../../static/img/pic/duorou-ss.png",
 					"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 					"money":"50"
 				},{
-					"route":"../../static/img/pic/order2-116.png",
+					"route":"../../static/img/pic/duorou-ss.png",
 					"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 					"money":"50"
 				},{
-					"route":"../../static/img/pic/order2-116.png",
+					"route":"../../static/img/pic/duorou-ss.png",
 					"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 					"money":"50"
 				},{
-					"route":"../../static/img/pic/order2-116.png",
+					"route":"../../static/img/pic/duorou-ss.png",
 					"info":"多肉植物组合盆栽好看，易成活，温湿度局部做特殊要求，让你的房间变得生动起来。",
 					"money":"50"
 				}
@@ -135,27 +135,27 @@
 			"tit":"电器",
 			"list":[
 				{
-					"route":"../../static/img/pic/tixudao1-116.png",
+					"route":"../../static/img/pic/daoone-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},{
-					"route":"../../static/img/pic/tixudao1-116.png",
+					"route":"../../static/img/pic/daoone-ss.png",
 					"info":"飞科（FLYCO）全自动电动剃须刀自动剃须刀，轻松无烦恼，让你舒适惬意生活。",
 					"money":"100"
 				},{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"		
 				},{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"		
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"120"
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"80"
 				}
@@ -165,19 +165,19 @@
 			"tit":"特惠",
 			"list":[
 				{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"		
 				},{
-					"route":"../../static/img/pic/qiang1-116.png",
+					"route":"../../static/img/pic/bottle-ss.png",
 					"info":"1.5L不锈钢电热水壶不锈钢电热水壶不锈钢电热水壶1.5L不锈钢电热水壶",
 					"money":"120"		
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"120"
 				},{
-					"route":"../../static/img/pic/qiang2-116.png",
+					"route":"../../static/img/pic/cooker-ss.png",
 					"info":"大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉大功率厨房电磁炉",
 					"money":"80"
 				}
