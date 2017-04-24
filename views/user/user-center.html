@@ -36,21 +36,4 @@
 </body>
 </html>
 <script type="text/javascript" src="../../static/js/module/jquery-2.1.4.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	
-	/*退出登录弹窗*/
-	$(document).on('tap','[exit]',function(){
-		$('[mask]').removeClass('undis');
-		$('[exit-dialog]').removeClass('undis');
-		return false;
-	});
-
-	$(document).on('tap','[cancel-btn]',function(){
-		$('[mask]').addClass('undis');
-		$('[exit-dialog]').addClass('undis');
-		return false;
-	});
-	
-});
-</script>
+<script type="text/javascript" src="../../static/js/page/user/user-center.js"></script>

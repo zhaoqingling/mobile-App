@@ -18,6 +18,11 @@ button,input:focus,textarea:focus{outline:0;}.undis{display:none;}
 .pullDownLabel{line-height:1.5rem;font-size:1rem;text-align:center;}
 #wrapper{margin-top:0.5rem;}
 
+/*mui*/
+h1,h2,h3,h4,h5,h6{margin:0;}
+input[type="text"],input[type="tel"],select,textarea{height:auto;margin:0;border-radius:none;}
+.mui-picker{background:#fff;}
+
 /*header*/
 .header{width:100%;background:#fff;position:relative;}
 .header .title{line-height:4.4rem;font-size:1.7rem;color:#202020;font-weight:normal;text-align:center;}

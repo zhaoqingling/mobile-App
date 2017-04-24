@@ -47,28 +47,7 @@
 </html>
 <script src="../../static/js/module/jquery-2.1.4.min.js"></script>
 <script src="../../static/js/libs/jquery.color.js"></script>
-<script>
-$(function(){
-	/*
-	 * 游戏
-	 * Author:jiaqian
-	 * Data:2016/1/12
-	 */
-	$('[name="color-start"] .btn-start').Color({
-		longtime:60,//s秒
-		isBegin:function(resultFn){
-			// ajax返回的状态
-			var status = {
-					success:true
-				};
-			resultFn(status);
-		},
-		endFn:function(num){// 游戏结束时返回得分
-			console.log(num);
-		}
-	});
-});
-</script>
+<script src="../../static/js/page/game/see-color.js"></script>
 
 
 

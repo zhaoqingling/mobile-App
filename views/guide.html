@@ -16,22 +16,6 @@
 </body>
 </html>
 <script type="text/javascript" src="../static/js/module/jquery-2.1.4.min.js"></script>
-<script type="text/javascript">
-$(function(){
-
-	/*3s后跳转*/
-	var timer ='';
-	timer = setInterval(function(){
-
-		var txt = parseInt($('.time strong').text());
-		txt --;
-		$('.time strong').text(txt);
-		if(txt<=0){
-			clearInterval(timer);
-			window.location.href='./index.html';
-		}
-	},1000);
-});	
-</script>
+<script type="text/javascript" src="../static/js/page/guide.js"></script>
 
 
