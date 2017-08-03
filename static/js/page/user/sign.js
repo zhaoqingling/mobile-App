@@ -51,4 +51,38 @@ $(function(){
 			window.location.href="../guide.html";
 		}	
 	});
+
+	var url ='http://192.168.1.100:8080/Shopping/Online';
+	$(document).on('tap','[btn-sign]',function(){
+		var user = $('[input-num]').val();
+		var password = $('[input-password]').val();
+		var json = {
+				servCode : "user",
+				busiCode : "login",
+				data : {
+					"user" : "",
+					"password" :"" 
+				}
+			};
+		$.ajax({
+			url : url,
+			data : JSON.stringify(json),
+			contentType : "application/json; charset=utf-8",
+			type : "POST",
+			dataType : "json",
+			success : function(data) {
+				if(data.code == 1){
+					//console.log(data);
+					alert(JSON.stringify(data));
+					localStorage.setItem("dataSource",data.data);
+					window.location.href="../guide.html";
+				}else{
+					alert('登录失败');
+				}
+			},
+			error : function(data) {
+				alert('登录失败');
+			}
+		});
+	});
 });

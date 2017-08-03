@@ -14,6 +14,7 @@ $(function(){
 			dataType:'json',
 			data:'',
 			success:function(dataSource){
+				
 				// code = 001 代表有数据  其他组合功能(000 002)暂定
 				if(dataSource.code == 001){
 					var result1 = '';
@@ -52,6 +53,7 @@ $(function(){
 							'</a>'+	
 						'</li>';
 					}
+					$('[credit]').text(dataSource.credit);
 					result3 = '<section class="shop-bottom"><section class="shop-list"><ul>'+result3+'</ul></section></section>';
 					    $('[line3]').append(result3);   
 
@@ -98,6 +100,8 @@ $(function(){
 					$(_this).html('<i class="card"></i>已打卡</strong><span class="add">+2积分</span>');
 				});
 			}
+			alert(11);
+			return false;
 		});
 	}
 });	

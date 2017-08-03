@@ -1,5 +1,7 @@
 {
 	"code":"001",
+	"credit":"6000",
+	"userId":"123",
 	"ProductList1":[
 		{
 			"route":"../static/img/pic/bottle-xs.png",
